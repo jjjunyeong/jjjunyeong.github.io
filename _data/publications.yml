@@ -1,3 +1,11 @@
+- title: "Salad-Bowl-LLM: Multi-Culture LLMs by In-Context Demonstrations from Diverse Cultures"
+  authors: "Dongkwan Kim, Junho Myung, Alice Oh"
+  collection: "publications"
+  date: "2024-12-09"
+  venue: "Workshop on Socially Responsible Language Modelling Research @ NeurIPS 2024"
+  type: 'Workshop on Customizable NLP @ EMNLP 2024'
+  paperurl: "https://openreview.net/forum?id=KsAfPGPZZn&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FWorkshop%2FSoLaR%2FAuthors%23your-submissions)"
+
 - title: "BLEnD: A Benchmark for LLMs on Everyday Knowledge in Diverse Cultures and Languages"
   authors: 'Junho Myung, Nayeon Lee, Yi Zhou, Jiho Jin, Rifki Afina Putri, 14 more authors, Nedjma Ousidhoum, Jose Camacho-Collados, Alice Oh'
   collection: 'publications'
