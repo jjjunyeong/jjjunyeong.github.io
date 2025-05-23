@@ -4,7 +4,8 @@
   date: '2025-03-21'
   venue: 'Workshop on Cross-Cultural Considerations in NLP (C3NLP) @ NAACL 2025'
   type: 'workshop, demos, and posters'
-  arxivurl: 'https://aclanthology.org/2025.c3nlp-1.11/'
+  paperurl: 'https://aclanthology.org/2025.c3nlp-1.11/'
+  award: 'Outstanding Paper at C3NLP Workshop @ NAACL'
 
 - title: 'LLM-C3MOD: A Human-LLM Collaborative System for Cross-Cultural Hate Speech Moderation'
   authors: 'Junyeong Park*, Seogyeong Jeong*, Seyoung Song*, Yohan Lee, Alice Oh'
@@ -12,7 +13,7 @@
   date: '2025-03-10'
   venue: 'Workshop on Cross-Cultural Considerations in NLP (C3NLP) @ NAACL 2025'
   type: 'workshop, demos, and posters'
-  arxivurl: 'https://aclanthology.org/2025.c3nlp-1.7/'
+  paperurl: 'https://aclanthology.org/2025.c3nlp-1.7/'
 
 - title: "Diffusion Models Through a Global Lens: Are They Culturally Inclusive?"
   authors: 'Zahra Bayramli*, Ayhan Suleymanzade*, Na Min An, Huzama Ahmad, Eunsu Kim, Junyeong Park, James Thorne, Alice Oh'
