@@ -1,8 +1,11 @@
-- date: "May 5, 2025"
+- date: "Apr, 2025"
+  news: "🏆 <a href='https://arxiv.org/abs/2503.16826'>Tom Eats Kimchi</a> received the Outstanding Paper Award at the <a href='https://c3nlp.github.io'>C3NLP workshop</a> @ NAACL 2025!"
+
+- date: "Apr, 2025"
   news: "🗣 Joining as a Panel in Selected Papers Authors Panel at the <a href='https://c3nlp.github.io'>C3NLP workshop</a>!"
 
-- date: "Apr 28, 2025"
-  news: "🇺🇸 Attending NAACL 2025 to present <a href='https://arxiv.org/abs/2503.07237'>LLM-C3MOD</a>, <a href='https://arxiv.org/abs/2503.16826'>MixCuBe</a> and <a href='https://arxiv.org/abs/2502.08914'>CULTDIFF</a> at the <a href='https://c3nlp.github.io'>C3NLP workshop</a>."
+- date: "Apr, 2025"
+  news: "🇺🇸 Attending NAACL 2025 to present <a href='https://arxiv.org/abs/2503.07237'>LLM-C3MOD</a>, <a href='https://arxiv.org/abs/2503.16826'>Tom Eats Kimchi</a> and <a href='https://arxiv.org/abs/2502.08914'>Diffusion Models Through a Global Lens</a> at the <a href='https://c3nlp.github.io'>C3NLP workshop</a>."
 
-- date: "Nov 14, 2024"
+- date: "Nov, 2024"
   news: "🗣 Presenting <a href='https://arxiv.org/abs/2411.00860'>Culture Survey</a> in EMNLP 2024 BoF session."
