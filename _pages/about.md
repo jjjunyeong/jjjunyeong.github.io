@@ -9,7 +9,7 @@ redirect_from:
 
 Hello, I am Junyeong Park, a second-year Master’s student in the [School of Computing](https://cs.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/). I work together with Professors [Alice Oh](https://aliceoh9.github.io/) and [So-Yeon Ahn](https://sites.google.com/view/soyeonahn/about) at [U&I Lab](https://uilab.kr/) and [LEAD Lab](https://sites.google.com/view/soyeonahn/about).
 
-My research interests lie in Multicultural NLP and Application of NLP in Language Learning.
+My research interests lie in Cross-Cultural NLP and Application of NLP in Language Education.
 
 Please feel free to contact me via email <code>jjjunyeong9986 (at) kaist.ac.kr</code>.
 
