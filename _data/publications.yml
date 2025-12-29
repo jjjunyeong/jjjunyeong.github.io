@@ -1,3 +1,26 @@
+- title: "World in a Frame: Understanding Culture Mixing as a New Challenge for Vision-Language Models"
+  authors: 'Eunsu Kim, Junyeong Park, Na Min An, Junseong Kim, Hitesh Laxmichand Patel, Jiho Jin, Julia Kruk, Amit Agarwal, Srikant Panda, Fenal Ashokbhai Ilasariya, Hyunjung Shim, Alice Oh'
+  collection: 'publications'
+  date: '2025-11-27'
+  type: 'preprint'
+  arxivurl: 'https://arxiv.org/abs/2511.22787'
+
+- title: "One-Topic-Doesn't-Fit-All: Transcreating Reading Comprehension Test for Personalized Learning"
+  authors: 'Jieun Han, Daniel Lee, Haneul Yoo, Jinsung Yoon, Junyeong Park, Suin Kim, So-Yeon Ahn, Alice Oh'
+  collection: 'publications'
+  date: '2025-11-12'
+  venue: 'Tailoring AI: Exploring Active and Passive LLM Personalization (PALS) @ EMNLP 2025'
+  type: 'workshop, demos, and posters'
+  arxivurl: 'https://arxiv.org/abs/2511.09135'
+  award: 'Best Paper at PALS Workshop @ EMNLP'
+
+- title: "Are they lovers or friends? Evaluating LLMs' Social Reasoning in English and Korean Dialogues"
+  authors: 'Eunsu Kim, Junyeong Park, Juhyun Oh, Kiwoong Park, Seyoung Song, A Seza Doğruöz, Najoung Kim, Alice Oh'
+  collection: 'publications'
+  date: '2025-10-21'
+  type: 'preprint'
+  arxivurl: 'https://arxiv.org/abs/2510.19028'
+
 - title: 'When Tom Eats Kimchi: Evaluating Cultural Bias of Multimodal Large Language Models in Cultural Mixture Contexts'
   authors: 'Jun Seong Kim*, Kyaw Ye Thu*, Javad Ismayilzada, Junyeong Park, Eunsu Kim, Huzama Ahmad, Na Min An, James Thorne, Alice Oh'
   collection: 'publications'
