@@ -1,5 +1,12 @@
+- title: "Understanding EFL Learners' Code-Switching and Teachers' Pedagogical Approaches in LLM-Supported Speaking Practice"
+  authors: 'Junyeong Park, Jieun Han, Yeon Su Park, Youngbin Lee, Suin Kim, Juho Kim, Alice Oh, So-Yeon Ahn'
+  collection: 'publications'
+  date: '2025-12-29'
+  type: 'preprint'
+  arxivurl: 'https://arxiv.org/abs/2512.23136'
+
 - title: "World in a Frame: Understanding Culture Mixing as a New Challenge for Vision-Language Models"
-  authors: 'Eunsu Kim, Junyeong Park, Na Min An, Junseong Kim, Hitesh Laxmichand Patel, Jiho Jin, Julia Kruk, Amit Agarwal, Srikant Panda, Fenal Ashokbhai Ilasariya, Hyunjung Shim, Alice Oh'
+  authors: 'Eunsu Kim*, Junyeong Park*, Na Min An*, Junseong Kim, Hitesh Laxmichand Patel, Jiho Jin, Julia Kruk, Amit Agarwal, Srikant Panda, Fenal Ashokbhai Ilasariya, Hyunjung Shim, Alice Oh'
   collection: 'publications'
   date: '2025-11-27'
   type: 'preprint'
