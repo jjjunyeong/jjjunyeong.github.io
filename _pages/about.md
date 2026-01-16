@@ -7,11 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I am Junyeong Park, a second-year Master’s student in the [School of Computing](https://cs.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/). I work together with Professors [Alice Oh](https://aliceoh9.github.io/) and [So-Yeon Ahn](https://sites.google.com/view/soyeonahn/about) at [U&I Lab](https://uilab.kr/) and [LEAD Lab](https://sites.google.com/view/soyeonahn/about).
+Hello, I am Junyeong Park, a first year Ph.D. student in the [Computer Science dept.](https://cs.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/). I am co-adviced by Professors [Alice Oh](https://aliceoh9.github.io/) and [So-Yeon Ahn](https://sites.google.com/view/soyeonahn/about) at [U&I Lab](https://uilab.kr/) and [LEAD Lab](https://sites.google.com/view/soyeonahn/about).
 
-My research interests lie in Cross-Cultural NLP and Application of NLP in Language Education.
+My research interest lies broadly in LLM for social good. More specifically, I'm interested in evaluating the sociocultural capabilities of LLMs [1](https://arxiv.org/abs/2511.22787)[2](https://arxiv.org/abs/2510.19028)[3](https://arxiv.org/abs/2503.16826) and exploring applications of LLMs in the language learning domain [4](https://arxiv.org/abs/2512.23136).
 
-Please feel free to contact me via email <code>jjjunyeong9986 (at) kaist.ac.kr</code>.
+I am happy to collaborate with anyone who shares similar research interests.
+Please feel free to contact me via email at <code>jjjunyeong9986 (at) kaist.ac.kr</code>.
 
 Latest News ([See all](/news/))
 ------
