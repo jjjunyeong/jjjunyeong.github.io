@@ -24,11 +24,11 @@ author:
   avatar           : "my_profile.jpg"
   name             : "Junyeong Park"
   pronouns         : # example: "she/her"  
-  bio              : "Master's Student of KAIST School of Computing"
+  bio              : "Ph.D. Student of KAIST School of Computing"
   location         : # "Earth"
   employer         : "KAIST"
   uri              : # URL
-  email            : "jjjunyeong9986@kaist.ac.kr" 
+  email            : "junyeong.park@kaist.ac.kr" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
