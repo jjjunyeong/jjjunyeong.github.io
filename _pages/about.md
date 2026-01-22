@@ -12,7 +12,7 @@ Hello, I am Junyeong Park, a first year Ph.D. student in the [Computer Science d
 My research interest lies broadly across LLM for social good. More specifically, I'm interested in evaluating the sociocultural capabilities of LLMs [[1]](https://arxiv.org/abs/2511.22787)[[2]](https://arxiv.org/abs/2510.19028)[[3]](https://arxiv.org/abs/2503.16826) and exploring applications of LLMs in the language learning domain [[4]](https://arxiv.org/abs/2512.23136).
 
 I am happy to collaborate with anyone who shares similar research interests.
-Please feel free to contact me via email at <code>jjjunyeong9986 (at) kaist.ac.kr</code>.
+Please feel free to contact me via email at <code>junyeong.park (at) kaist.ac.kr</code>.
 
 Latest News ([See all](/news/))
 ------
