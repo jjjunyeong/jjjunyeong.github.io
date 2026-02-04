@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I am Junyeong Park, a first year Ph.D. student in the [Computer Science dept.](https://cs.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/). I am co-adviced by Professors [Alice Oh](https://aliceoh9.github.io/) and [So-Yeon Ahn](https://sites.google.com/view/soyeonahn/about) at [U&I Lab](https://uilab.kr/) and [LEAD Lab](https://sites.google.com/view/soyeonahn/about).
+Hello, I am Junyeong Park, a first year Ph.D. student in the [Computer Science Dept.](https://cs.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/). I am co-adviced by professors [Alice Oh](https://aliceoh9.github.io/) and [So-Yeon Ahn](https://sites.google.com/view/soyeonahn/about) at [U&I Lab](https://uilab.kr/) and [LEAD Lab](https://sites.google.com/view/soyeonahn/about).
 
-My research interest lies broadly across LLM for social good. More specifically, I'm interested in evaluating the sociocultural capabilities of LLMs [[1]](https://arxiv.org/abs/2511.22787)[[2]](https://arxiv.org/abs/2510.19028)[[3]](https://arxiv.org/abs/2503.16826) and exploring applications of LLMs in the language learning domain [[4]](https://arxiv.org/abs/2512.23136).
+My research interest lies broadly across LLM for social good, specifically in evaluating sociocultural capabilities of LLMs [[1]](https://arxiv.org/abs/2511.22787)[[2]](https://arxiv.org/abs/2510.19028)[[3]](https://arxiv.org/abs/2503.16826) and exploring LLMs in education domain [[4]](https://arxiv.org/abs/2512.23136).
 
 I am happy to collaborate with anyone who shares similar research interests.
 Please feel free to contact me via email at <code>junyeong.park (at) kaist.ac.kr</code>.
