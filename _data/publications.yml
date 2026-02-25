@@ -9,7 +9,8 @@
   authors: 'Eunsu Kim*, Junyeong Park*, Na Min An*, Junseong Kim, Hitesh Laxmichand Patel, Jiho Jin, Julia Kruk, Amit Agarwal, Srikant Panda, Fenal Ashokbhai Ilasariya, Hyunjung Shim, Alice Oh'
   collection: 'publications'
   date: '2025-11-27'
-  type: 'preprint'
+  venue: 'CVPR, 2026'
+  type: 'conference'
   arxivurl: 'https://arxiv.org/abs/2511.22787'
 
 - title: "One-Topic-Doesn't-Fit-All: Transcreating Reading Comprehension Test for Personalized Learning"
