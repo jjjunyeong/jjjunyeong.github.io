@@ -1,3 +1,11 @@
+- title: "Investigating Counterfactual Unfairness in LLMs towards Identities through Humor"
+  authors: 'Shubin Kim*, Yejin Son*, Junyeong Park, Keummin Ka, Seungbeen Lee, Jaeyoung Lee, Hyeju Jang, Alice Oh, Youngjae Yu'
+  collection: 'publications'
+  date: '2026-04-20'
+  venue: 'ACL, 2026'
+  type: 'conference'
+  arxivurl: 'http://arxiv.org/abs/2604.18729'
+
 - title: "Understanding EFL Learners' Code-Switching and Teachers' Pedagogical Approaches in LLM-Supported Speaking Practice"
   authors: 'Junyeong Park, Jieun Han, Yeon Su Park, Youngbin Lee, Suin Kim, Juho Kim, Alice Oh, So-Yeon Ahn'
   collection: 'publications'
@@ -26,7 +34,8 @@
   authors: 'Eunsu Kim, Junyeong Park, Juhyun Oh, Kiwoong Park, Seyoung Song, A Seza Doğruöz, Najoung Kim, Alice Oh'
   collection: 'publications'
   date: '2025-10-21'
-  type: 'preprint'
+  venue: 'ACL, 2026'
+  type: 'conference'
   arxivurl: 'https://arxiv.org/abs/2510.19028'
 
 - title: 'When Tom Eats Kimchi: Evaluating Cultural Bias of Multimodal Large Language Models in Cultural Mixture Contexts'
