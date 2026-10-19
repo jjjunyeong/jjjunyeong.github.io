@@ -327,14 +327,6 @@ main { padding: 28px 0 8px; }
   padding: 2px 8px;
 }
 
-footer {
-  padding: 56px 0 28px;
-  color: var(--faint);
-  font-size: 0.95rem;
-}
-
-footer p { margin: 0; }
-
 .cv-head { padding-top: 18px; }
 
 .cv-head h1 {
@@ -457,7 +449,7 @@ footer p { margin: 0; }
 }
 
 @media print {
-  .topbar, .skip, footer, .filters, .contact { display: none; }
+  .topbar, .skip, .filters, .contact { display: none; }
   body { font-size: 12pt; color: #000; }
   a { color: #000; text-decoration: none; }
   .wrap { width: 100%; }
