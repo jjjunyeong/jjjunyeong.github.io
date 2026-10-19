@@ -1,88 +1,208 @@
-- title: "Investigating Counterfactual Unfairness in LLMs towards Identities through Humor"
-  authors: 'Shubin Kim*, Yejin Son*, Junyeong Park, Keummin Ka, Seungbeen Lee, Jaeyoung Lee, Hyeju Jang, Alice Oh, Youngjae Yu'
-  collection: 'publications'
-  date: '2026-04-20'
-  venue: 'ACL, 2026'
-  type: 'conference'
-  arxivurl: 'http://arxiv.org/abs/2604.18729'
+# primary: culture | bias | education
+# tags: culture, bias, education, evaluation, safety
+# cv: first | co | preprint
+# order: homepage order within a theme, newest publication first
+# cv_order: order on the CV page
 
-- title: "Understanding EFL Learners' Code-Switching and Teachers' Pedagogical Approaches in LLM-Supported Speaking Practice"
-  authors: 'Junyeong Park, Jieun Han, Yeon Su Park, Youngbin Lee, Suin Kim, Juho Kim, Alice Oh, So-Yeon Ahn'
-  collection: 'publications'
-  date: '2025-12-29'
-  type: 'preprint'
-  arxivurl: 'https://arxiv.org/abs/2512.23136'
+- title: "JuICE: A Benchmark for Evaluating LLM-Judge in Identifying Cultural Errors"
+  authors: "Jiho Jin*, Junho Myung*, Juhyun Oh, Junyeong Park, Rifki Afina Putri, Sunipa Dev, Vinodkumar Prabhakaran, Alice Oh"
+  venue: "NeurIPS Evaluations & Datasets Track, 2026"
+  primary: culture
+  tags: [culture, evaluation]
+  cv: co
+  order: 1
+  cv_order: 5
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2605.26955
 
-- title: "World in a Frame: Understanding Culture Mixing as a New Challenge for Vision-Language Models"
-  authors: 'Eunsu Kim*, Junyeong Park*, Na Min An*, Junseong Kim, Hitesh Laxmichand Patel, Jiho Jin, Julia Kruk, Amit Agarwal, Srikant Panda, Fenal Ashokbhai Ilasariya, Hyunjung Shim, Alice Oh'
-  collection: 'publications'
-  date: '2025-11-27'
-  venue: 'CVPR, 2026'
-  type: 'conference'
-  arxivurl: 'https://arxiv.org/abs/2511.22787'
-
-- title: "One-Topic-Doesn't-Fit-All: Transcreating Reading Comprehension Test for Personalized Learning"
-  authors: 'Jieun Han, Daniel Lee, Haneul Yoo, Jinsung Yoon, Junyeong Park, Suin Kim, So-Yeon Ahn, Alice Oh'
-  collection: 'publications'
-  date: '2025-11-12'
-  venue: 'Tailoring AI: Exploring Active and Passive LLM Personalization (PALS) @ EMNLP 2025'
-  type: 'workshop, demos, and posters'
-  arxivurl: 'https://arxiv.org/abs/2511.09135'
-  award: 'Best Paper at PALS Workshop @ EMNLP'
+- title: "Pluralis v0.1: Towards a Multicultural, Multimodal, Multilingual Benchmark for AI Risk and Reliability"
+  authors: "Alicia Parrish, Rajat Shinde, …, Junyeong Park, …, Lora Aroyo"
+  venue: "Preprint, 2026"
+  primary: culture
+  tags: [culture, evaluation, safety]
+  cv: preprint
+  order: 2
+  cv_order: 15
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2607.06196
 
 - title: "Are they lovers or friends? Evaluating LLMs' Social Reasoning in English and Korean Dialogues"
-  authors: 'Eunsu Kim, Junyeong Park, Juhyun Oh, Kiwoong Park, Seyoung Song, A Seza Doğruöz, Alice Oh, Najoung Kim'
-  collection: 'publications'
-  date: '2025-10-21'
-  venue: 'ACL, 2026'
-  type: 'conference'
-  arxivurl: 'https://arxiv.org/abs/2510.19028'
+  authors: "Eunsu Kim, Junyeong Park, Juhyun Oh, Kiwoong Park, Seyoung Song, A. Seza Doğruöz, Najoung Kim†, Alice Oh†"
+  venue: "ACL, 2026"
+  primary: culture
+  tags: [culture, evaluation]
+  cv: co
+  order: 3
+  cv_order: 6
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2510.19028
+    - label: ACL Anthology
+      url: https://aclanthology.org/2026.acl-long.1074/
 
-- title: 'When Tom Eats Kimchi: Evaluating Cultural Bias of Multimodal Large Language Models in Cultural Mixture Contexts'
-  authors: 'Jun Seong Kim*, Kyaw Ye Thu*, Javad Ismayilzada, Junyeong Park, Eunsu Kim, Huzama Ahmad, Na Min An, James Thorne, Alice Oh'
-  collection: 'publications'
-  date: '2025-03-21'
-  venue: 'Workshop on Cross-Cultural Considerations in NLP (C3NLP) @ NAACL 2025'
-  type: 'workshop, demos, and posters'
-  paperurl: 'https://aclanthology.org/2025.c3nlp-1.11/'
-  award: 'Outstanding Paper at C3NLP Workshop @ NAACL'
-
-- title: 'LLM-C3MOD: A Human-LLM Collaborative System for Cross-Cultural Hate Speech Moderation'
-  authors: 'Junyeong Park*, Seogyeong Jeong*, Seyoung Song*, Yohan Lee, Alice Oh'
-  collection: 'publications'
-  date: '2025-03-10'
-  venue: 'Workshop on Cross-Cultural Considerations in NLP (C3NLP) @ NAACL 2025'
-  type: 'workshop, demos, and posters'
-  paperurl: 'https://aclanthology.org/2025.c3nlp-1.7/'
+- title: "World in a Frame: Understanding Culture Mixing as a New Challenge for Vision-Language Models"
+  authors: "Eunsu Kim*, Junyeong Park*, Na Min An*, Junseong Kim, Hitesh Laxmichand Patel, Jiho Jin, Julia Kruk, Amit Agarwal, Srikant Panda, Fenal Ashokbhai Ilasariya, Hyunjung Shim†, Alice Oh†"
+  venue: "CVPR, 2026"
+  primary: culture
+  tags: [culture, evaluation]
+  cv: first
+  order: 4
+  cv_order: 1
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2511.22787
+    - label: CVPR
+      url: https://openaccess.thecvf.com/content/CVPR2026/html/Kim_World_in_a_Frame_Understanding_Culture_Mixing_as_a_New_CVPR_2026_paper.html
 
 - title: "Diffusion Models Through a Global Lens: Are They Culturally Inclusive?"
-  authors: 'Zahra Bayramli*, Ayhan Suleymanzade*, Na Min An, Huzama Ahmad, Eunsu Kim, Junyeong Park, James Thorne, Alice Oh'
-  collection: 'publications'
-  date: '2025-02-13'
-  venue: 'ACL, 2025'
-  type: 'conference'
-  arxivurl: 'https://arxiv.org/abs/2502.08914'
+  authors: "Zahra Bayramli*, Ayhan Suleymanzade*, Na Min An, Huzama Ahmad, Eunsu Kim, Junyeong Park, James Thorne, Alice Oh"
+  venue: "ACL, 2025"
+  primary: culture
+  tags: [culture, evaluation]
+  cv: co
+  order: 5
+  cv_order: 9
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2502.08914
+    - label: ACL Anthology
+      url: https://aclanthology.org/2025.acl-long.1503/
 
-- title: 'Survey of cultural awareness in language models: Text and beyond'
-  authors: 'Siddhesh Pawar*, Junyeong Park*, Jiho Jin, Arnav Arora, Junho Myung, Srishti Yadav, Faiz Ghifari Haznitrama, Inhwa Song, Alice Oh, Isabelle Augenstein'
-  collection: 'publications'
-  date: '2024-10-30'
-  venue: 'Computational Linguistics, 2025'
-  type: 'journal articles'
-  arxivurl: 'https://arxiv.org/abs/2411.00860'
+- title: "Survey of Cultural Awareness in Language Models: Text and Beyond"
+  authors: "Siddhesh Pawar*, Junyeong Park*, Jiho Jin, Arnav Arora, Junho Myung, Srishti Yadav, Faiz Ghifari Haznitrama, Inhwa Song, Alice Oh, Isabelle Augenstein"
+  venue: "Computational Linguistics, 2025"
+  award: "Oral at ACL"
+  primary: culture
+  tags: [culture]
+  cv: first
+  order: 6
+  cv_order: 3
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2411.00860
+    - label: MIT Press
+      url: https://direct.mit.edu/coli/article/doi/10.1162/COLI.a.14/130804
 
+- title: "When Tom Eats Kimchi: Evaluating Cultural Bias of Multimodal Large Language Models in Cultural Mixture Contexts"
+  authors: "Jun Seong Kim*, Kyaw Ye Thu*, Javad Ismayilzada, Junyeong Park, Eunsu Kim, Huzama Ahmad, Na Min An, James Thorne, Alice Oh"
+  venue: "C3NLP Workshop at NAACL, 2025"
+  award: "Outstanding Paper"
+  primary: culture
+  tags: [culture, evaluation]
+  cv: co
+  order: 7
+  cv_order: 11
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2503.16826
+    - label: ACL Anthology
+      url: https://aclanthology.org/2025.c3nlp-1.11/
 
-# Template
+- title: "LLM-C3MOD: A Human-LLM Collaborative System for Cross-Cultural Hate Speech Moderation"
+  authors: "Junyeong Park*, Seogyeong Jeong*, Seyoung Song*, Yohan Lee, Alice Oh"
+  venue: "C3NLP Workshop at NAACL, 2025"
+  primary: culture
+  tags: [culture]
+  cv: first
+  order: 8
+  cv_order: 4
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2503.07237
+    - label: ACL Anthology
+      url: https://aclanthology.org/2025.c3nlp-1.7/
 
-# - title: 'Homogeneity-Based Transmissive Process To Model True and False News in Social Networks'
-#   authors: 'Jooyeon Kim, Junho Myung, and Alice Oh'
-#   collection: 'publications'
-#   date: '2019-02-11'
-#   venue: 'International Conference on Web Search and Data Mining (WSDM)'
-#   type: 'conference'
-#   paperurl: 'https://dl.acm.org/citation.cfm?id=3291009'
-#   arxivurl: 'https://arxiv.org/abs/1811.09702'
-#   codeurl: 'https://github.com/dongkwan-kim/HBTP'
-#   dataurl: 'https://github.com/dongkwan-kim/HBTP/tree/master/data'
-#   homeurl: 'homepage link'
-#   award: 'best paper'
+- title: "Investigating Social Bias in Narrative Image Generation"
+  authors: "Junyeong Park*, Sowon Min*, Euna Jang*, Soobin Kim*, Jiho Jin, Hyunseung Lim, Gahyeon Bae, Hwajung Hong"
+  venue: "GenAI4World Workshop at COLM, 2026"
+  primary: bias
+  tags: [bias, evaluation]
+  cv: first
+  order: 1
+  cv_order: 2
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2608.01780
+
+- title: "Investigating Counterfactual Unfairness in LLMs towards Identities through Humor"
+  authors: "Shubin Kim*, Yejin Son*, Junyeong Park, Keummin Ka, Seungbeen Lee, Jaeyoung Lee, Hyeju Jang, Alice Oh, Youngjae Yu"
+  venue: "ACL, 2026"
+  primary: bias
+  tags: [bias, evaluation]
+  cv: co
+  order: 2
+  cv_order: 7
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2604.18729
+    - label: ACL Anthology
+      url: https://aclanthology.org/2026.acl-long.2041/
+
+- title: "TutorLens: An Adaptive Framework for Evaluating AI Tutors in Active Learning Settings"
+  authors: "Changyoon Lee, Junyeong Park, Seungju Kim, Alice Oh"
+  venue: "NLP4PI Workshop at EMNLP, 2026"
+  primary: education
+  tags: [education, evaluation]
+  cv: co
+  order: 1
+  cv_order: 8
+  links:
+    - label: OpenReview
+      url: https://openreview.net/forum?id=cT0Oqt2css
+
+- title: "EduZone: A Framework for Evaluating LLM Safety for K-12 Students and Teachers"
+  authors: "Junyeong Park*, Jieun Han*, Haneul Yoo, So-Yeon Ahn, Jinsung Yoon, Alice Oh"
+  venue: "Preprint, 2026"
+  primary: education
+  tags: [education, evaluation, safety]
+  cv: preprint
+  order: 2
+  cv_order: 12
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2608.02024
+
+- title: "Learner Behavior in Learning by Teaching with Imperfect LLM Peers"
+  authors: "Jieun Han, Junyeong Park, Seohyun Park, Haneul Yoo, Hyoungwook Jin, Xing Xie, Evelyne Viegas, Sean Rintel, Miran Lee, Alice Oh, So-Yeon Ahn, Fangzhao Wu"
+  venue: "Preprint, 2026"
+  primary: education
+  tags: [education]
+  cv: preprint
+  order: 3
+  cv_order: 14
+
+- title: "Beyond Standard English: AI-Driven Language Learning for Inclusivity in South Korea"
+  authors: "So-Yeon Ahn, Jieun Han, Junyeong Park, Suin Kim"
+  venue: "Preprint, 2026"
+  primary: education
+  tags: [education]
+  cv: preprint
+  order: 4
+  cv_order: 13
+
+- title: "Understanding EFL Learners' Code-Switching and Teachers' Pedagogical Approaches in LLM-Supported Speaking Practice"
+  authors: "Junyeong Park, Jieun Han, Yeon Su Park, Youngbin Lee, Suin Kim, Juho Kim, Alice Oh, So-Yeon Ahn"
+  venue: "Preprint, 2025"
+  primary: education
+  tags: [education]
+  cv: preprint
+  order: 5
+  cv_order: 16
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2512.23136
+
+- title: "One-Topic-Doesn't-Fit-All: Transcreating Reading Comprehension Test for Personalized Learning"
+  authors: "Jieun Han, Daniel Lee, Haneul Yoo, Jinsung Yoon, Junyeong Park, Suin Kim, So-Yeon Ahn, Alice Oh"
+  venue: "PALS Workshop at EMNLP, 2025"
+  award: "Best Paper"
+  primary: education
+  tags: [education]
+  cv: co
+  order: 6
+  cv_order: 10
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2511.09135

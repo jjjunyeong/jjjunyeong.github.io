@@ -1,26 +1,32 @@
-- date: "June, 2026"
-  news: "🇺🇸 Attending CVPR 2026 to present <a href='https://arxiv.org/abs/2511.22787'>World in a Frame</a>."
+- date: "2026.10"
+  text: "Attending COLM 2026 to present [Bias in Narrative Image Generation](https://arxiv.org/abs/2608.01780)."
 
-- date: "Feb, 2026"
-  news: "🏆 Received an Outstanding MS Thesis Award from KAIST School of Computing department on the <a href='https://arxiv.org/abs/2512.23136'>Code Switching Language Learning Research</a>"
+- date: "2026.09"
+  text: "Visiting scholar at New York University through December 2026, working with [Eunsol Choi](https://eunsol.github.io/)."
 
-- date: "Nov, 2025"
-  news: "🏆 <a href='https://arxiv.org/abs/2511.09135'>Transcreation in Education</a> paper received the Best Paper Award at the <a href='https://pals-nlp-workshop.github.io'>PALS workshop</a> @ EMNLP 2025!"
+- date: "2026.06"
+  text: "Attending CVPR 2026 to present [World in a Frame](https://arxiv.org/abs/2511.22787)."
 
-- date: "Oct, 2025"
-  news: "🇦🇺 Attending CALL 2025 to present <a href='https://arxiv.org/abs/2512.23136'>Code Switching Language Learning Research</a>."
-  
-- date: "Aug, 2025"
-  news: "🇦🇹 Attending ACL 2025 to present <a href='https://arxiv.org/abs/2411.00860'>Culture Survey</a>."
+- date: "2026.02"
+  text: "Received an Outstanding MS Thesis Award from KAIST School of Computing for work on [code-switching in language learning](https://arxiv.org/abs/2512.23136)."
 
-- date: "Apr, 2025"
-  news: "🏆 <a href='https://arxiv.org/abs/2503.16826'>Tom Eats Kimchi</a> paper received the Outstanding Paper Award at the <a href='https://c3nlp.github.io'>C3NLP workshop</a> @ NAACL 2025!"
+- date: "2025.11"
+  text: "[Transcreation for personalized reading tests](https://arxiv.org/abs/2511.09135) received the Best Paper Award at the [PALS workshop](https://pals-nlp-workshop.github.io/) at EMNLP 2025."
 
-- date: "Apr, 2025"
-  news: "🗣 Joining as a Panel in Selected Papers Authors Panel at the <a href='https://c3nlp.github.io'>C3NLP workshop</a>!"
+- date: "2025.10"
+  text: "Attending CALL 2025 to present work on code-switching in LLM-supported speaking practice."
 
-- date: "Apr, 2025"
-  news: "🇺🇸 Attending NAACL 2025 to present <a href='https://arxiv.org/abs/2503.07237'>LLM-C3MOD</a>, <a href='https://arxiv.org/abs/2503.16826'>Tom Eats Kimchi</a> and <a href='https://arxiv.org/abs/2502.08914'>Diffusion Models Through a Global Lens</a> at the <a href='https://c3nlp.github.io'>C3NLP workshop</a>."
+- date: "2025.08"
+  text: "Attending ACL 2025 to present the [survey of cultural awareness in language models](https://arxiv.org/abs/2411.00860)."
 
-- date: "Nov, 2024"
-  news: "🗣 Presenting <a href='https://arxiv.org/abs/2411.00860'>Culture Survey</a> in EMNLP 2024 BoF session."
+- date: "2025.04"
+  text: "[When Tom Eats Kimchi](https://arxiv.org/abs/2503.16826) received the Outstanding Paper Award at the [C3NLP workshop](https://c3nlp.github.io/) at NAACL 2025."
+
+- date: "2025.04"
+  text: "Joined the Selected Papers Authors Panel at the [C3NLP workshop](https://c3nlp.github.io/)."
+
+- date: "2025.04"
+  text: "Attending NAACL 2025 to present [LLM-C3MOD](https://arxiv.org/abs/2503.07237), [When Tom Eats Kimchi](https://arxiv.org/abs/2503.16826), and [Diffusion Models Through a Global Lens](https://arxiv.org/abs/2502.08914)."
+
+- date: "2024.11"
+  text: "Presented the culture survey in an EMNLP 2024 Birds of a Feather session."

@@ -1,31 +1,46 @@
----
-layout: compress
----
-
-{% include base_path %}
-
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
-
-  <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.home %}{{ site.title }}{% else %}{{ page.title }} · {{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{% if page.home %}{{ site.title }}{% else %}{{ page.title }} · {{ site.title }}{% endif %}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/images/my_profile.png' | absolute_url }}">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body class="{% if page.home %}page-home{% endif %}{% if page.cv %} page-cv{% endif %}">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="topbar">
+    <div class="wrap bar">
+      {% if page.home %}
+      <h1 class="brand"><a href="{{ site.baseurl }}/">Junyeong Park</a></h1>
+      {% else %}
+      <a class="brand" href="{{ site.baseurl }}/">Junyeong Park</a>
+      {% endif %}
+      <nav aria-label="Primary">
+        <a href="{{ site.baseurl }}/#publications">Publications</a>
+        <a href="https://docs.google.com/document/d/1vrPW-HSEvlPotJF5bUUD1zHagS6RoYKN/edit?usp=sharing&ouid=101690348933921884656&rtpof=true&sd=true" target="_blank" rel="noopener">CV</a>
+      </nav>
     </div>
-
-    {% include scripts.html %}
-
-  </body>
+  </header>
+  <main id="content">
+    {{ content }}
+  </main>
+  <footer>
+    <div class="wrap">
+      <p>Junyeong Park</p>
+    </div>
+  </footer>
+  <script src="{{ '/assets/js/filter.js' | relative_url }}"></script>
+</body>
 </html>

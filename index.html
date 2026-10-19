@@ -1,0 +1,93 @@
+---
+layout: default
+home: true
+title: Junyeong Park
+description: "Junyeong Park is a Ph.D. student at KAIST studying culturally and socially inclusive AI, including cultural understanding, social bias, safety, reasoning, and education."
+---
+
+<div class="home">
+<aside class="side" id="news" aria-labelledby="news-title">
+  <img class="portrait" src="{{ '/images/my_profile.png' | relative_url }}" width="1182" height="1226" alt="Junyeong Park">
+  <p class="contact">
+    <a href="https://scholar.google.com/citations?user=V9oXTicAAAAJ&hl=en">Google Scholar</a>
+    <a href="https://www.linkedin.com/in/junyeong-park-61b508267">LinkedIn</a>
+    <a href="https://github.com/jjjunyeong">GitHub</a>
+    <a href="https://x.com/jjjunyeong">X</a>
+  </p>
+  <h2 id="news-title">News</h2>
+  <div class="news">
+    {% for item in site.data.news %}
+    <article class="news-item">
+      <time datetime="{{ item.date | replace: '.', '-' }}">{{ item.date }}</time>
+      <div class="text">{{ item.text | markdownify }}</div>
+    </article>
+    {% endfor %}
+  </div>
+</aside>
+
+<section class="intro">
+  <div>
+    <p>Hi! :) I’m a first-year PhD student in the <a href="https://cs.kaist.ac.kr/">School of Computing</a> at <a href="https://www.kaist.ac.kr/en/">KAIST</a>, working with my amazing advisors, <a href="https://aliceoh9.github.io/">Alice Oh</a> and <a href="https://sites.google.com/view/soyeonahn/about">So-Yeon Ahn</a>. In fall 2026, I’m visiting New York University, working with <a href="https://eunsol.github.io/">Eunsol Choi</a>.</p>
+    <p>My research is motivated by the idea of AI for Good: I want to build AI that serves people and society, supporting people with diverse backgrounds, experiences, and needs. I primarily work in natural language processing (NLP), sometimes drawing on human–computer interaction (HCI) to better understand the people who use these systems.</p>
+    <p>I’m currently focusing on multicultural AI and AI for education. Some questions that guide my work are: How well do language models understand and respond to people across cultures? How can they support students and teachers in meaningful ways? And how can we make these systems safer, more reliable, and less biased? Through building and evaluating these models, I hope to help make AI more inclusive and responsive to the people it serves.</p>
+    <p>I’d love to connect with others who share these interests, to collaborate, exchange ideas, or simply chat! Feel free to reach out at <a href="mailto:junyeong.park@kaist.ac.kr">junyeong.park@kaist.ac.kr</a>.</p>
+  </div>
+</section>
+
+<section class="section" id="publications" aria-labelledby="publications-title">
+  <h2 id="publications-title">Publications</h2>
+
+  <div class="filters" role="group" aria-label="Filter publications by theme">
+    <button type="button" class="is-on" data-filter="all" aria-pressed="true">All <span class="count">{{ site.data.publications | size }}</span></button>
+    {% for theme in site.data.themes %}
+      {% assign count = 0 %}
+      {% for paper in site.data.publications %}
+        {% if paper.tags contains theme.id %}
+          {% assign count = count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      <button type="button" data-filter="{{ theme.id }}" aria-pressed="false">{{ theme.title }} <span class="count">{{ count }}</span></button>
+    {% endfor %}
+  </div>
+
+  {% for theme in site.data.themes %}
+    {% if theme.group %}
+      {% assign themed = site.data.publications | where: "primary", theme.id | sort: "order" %}
+      {% if themed.size > 0 %}
+      <section class="theme" id="theme-{{ theme.id }}" aria-labelledby="theme-{{ theme.id }}-title">
+        <h3 id="theme-{{ theme.id }}-title">{{ theme.title }}</h3>
+        <p class="blurb">{{ theme.blurb }}</p>
+        {% for pub in themed %}
+        <article class="paper" data-tags="{{ pub.tags | join: ' ' }}">
+          <h4>
+            {% assign lead = pub.links | first %}
+            {% if lead %}
+            <a href="{{ lead.url }}">{{ pub.title }}</a>
+            {% else %}
+            {{ pub.title }}
+            {% endif %}
+          </h4>
+          <p class="authors">{% include authors.html text=pub.authors %}</p>
+          <p class="meta">
+            <span>{{ pub.venue }}</span>
+            {% if pub.award %}<span class="award">{{ pub.award }}</span>{% endif %}
+            {% for link in pub.links %}
+            <a href="{{ link.url }}">{{ link.label }}</a>
+            {% endfor %}
+          </p>
+          <ul class="tags">
+            {% for tag in site.data.themes %}
+              {% if pub.tags contains tag.id and tag.id != pub.primary %}
+              <li>{{ tag.title }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </article>
+        {% endfor %}
+      </section>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</section>
+</div>
+

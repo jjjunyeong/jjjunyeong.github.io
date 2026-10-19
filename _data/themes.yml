@@ -1,0 +1,22 @@
+- id: culture
+  title: Culture
+  group: true
+  blurb: How AI understands different cultures and responds to people from different backgrounds.
+
+- id: bias
+  title: Bias
+  group: true
+  blurb: How AI portrays different groups of people, and where stereotypes and unfairness show up in text and images.
+
+- id: education
+  title: Education
+  group: true
+  blurb: How AI can help students learn and teachers teach in safe, useful, and reliable ways.
+
+- id: evaluation
+  title: Evaluation
+  group: false
+
+- id: safety
+  title: Safety
+  group: false
