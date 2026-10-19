@@ -43,7 +43,7 @@
       url: https://aclanthology.org/2026.acl-long.1074/
 
 - title: "World in a Frame: Understanding Culture Mixing as a New Challenge for Vision-Language Models"
-  authors: "Eunsu Kim*, Junyeong Park*, Na Min An*, Junseong Kim, Hitesh Laxmichand Patel, Jiho Jin, Julia Kruk, Amit Agarwal, Srikant Panda, Fenal Ashokbhai Ilasariya, Hyunjung Shim†, Alice Oh†"
+  authors: "Eunsu Kim*, Junyeong Park*, Na Min An*, Jun Seong Kim, Hitesh Laxmichand Patel, Jiho Jin, Julia Kruk, Amit Agarwal, Srikant Panda, Fenal Ashokbhai Ilasariya, Hyunjung Shim†, Alice Oh†"
   venue: "CVPR, 2026"
   primary: culture
   tags: [culture, evaluation]
