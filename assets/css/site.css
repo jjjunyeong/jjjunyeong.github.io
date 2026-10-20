@@ -448,6 +448,24 @@ main { padding: 28px 0 8px; }
   .cv-head h1 { font-size: 2rem; }
 }
 
+.news-page {
+  width: min(720px, calc(100% - 40px));
+  margin: 8px auto 48px;
+}
+
+.news-page h1 {
+  margin: 0;
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.news-page .news {
+  max-height: none;
+  overflow: visible;
+  padding-right: 0;
+}
+
 @media print {
   .topbar, .skip, .filters, .contact { display: none; }
   body { font-size: 12pt; color: #000; }

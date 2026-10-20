@@ -18,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
-<body class="{% if page.home %}page-home{% endif %}{% if page.cv %} page-cv{% endif %}">
+<body class="{% if page.home %}page-home{% endif %}{% if page.news %} page-news{% endif %}">
   <a class="skip" href="#content">Skip to content</a>
   <header class="topbar">
     <div class="wrap bar">
@@ -29,6 +29,7 @@
       {% endif %}
       <nav aria-label="Primary">
         <a href="{{ site.baseurl }}/#publications">Publications</a>
+        <a href="{{ site.baseurl }}/news/"{% if page.news %} aria-current="page"{% endif %}>News</a>
         <a href="https://docs.google.com/document/d/1vrPW-HSEvlPotJF5bUUD1zHagS6RoYKN/edit?usp=sharing&ouid=101690348933921884656&rtpof=true&sd=true" target="_blank" rel="noopener">CV</a>
       </nav>
     </div>

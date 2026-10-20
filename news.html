@@ -1,0 +1,19 @@
+---
+layout: default
+title: News
+news: true
+permalink: /news/
+description: "News from Junyeong Park."
+---
+
+<section class="news-page">
+  <h1>News</h1>
+  <div class="news">
+    {% for item in site.data.news %}
+    <article class="news-item">
+      <time datetime="{{ item.date | replace: '.', '-' }}">{{ item.date }}</time>
+      <div class="text">{{ item.text | markdownify }}</div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
