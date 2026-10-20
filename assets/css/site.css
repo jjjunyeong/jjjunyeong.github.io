@@ -6,7 +6,9 @@
   --accent: #0b5328;
   --accent-dark: #083d1c;
   --wash: #e7f6eb;
-  --award: #0b5328;
+  --award: #9b2c4a;
+  --tag: #1a5560;
+  --tag-bg: #e7f3f3;
   --bg: #fffcf6;
   --max: 1040px;
 }
@@ -321,8 +323,9 @@ main { padding: 28px 0 8px; }
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.01em;
-  color: var(--accent);
-  background: var(--wash);
+  color: var(--tag);
+  background: var(--tag-bg);
+  border: 1px solid #c5dedd;
   border-radius: 999px;
   padding: 2px 8px;
 }
@@ -449,7 +452,7 @@ main { padding: 28px 0 8px; }
 }
 
 .news-page {
-  width: min(720px, calc(100% - 40px));
+  width: min(760px, calc(100% - 40px));
   margin: 8px auto 48px;
 }
 
@@ -460,10 +463,83 @@ main { padding: 28px 0 8px; }
   letter-spacing: -0.03em;
 }
 
-.news-page .news {
-  max-height: none;
-  overflow: visible;
-  padding-right: 0;
+.timeline {
+  list-style: none;
+  margin: 28px 0 0;
+  padding: 0;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 20px 4.8rem minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: center;
+}
+
+.rail {
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rail::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  transform: translateX(-50%);
+  background: #d5e6da;
+}
+
+.timeline-item:first-child .rail::before { top: 50%; }
+.timeline-item:last-child .rail::before { bottom: 50%; }
+
+.node {
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  background: var(--bg);
+  position: relative;
+  z-index: 1;
+  flex: none;
+}
+
+.timeline-item.is-latest .node {
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--bg), 0 0 0 7px #d7efe0;
+}
+
+.timeline-item time {
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.timeline-item .card {
+  margin: 7px 0;
+  background: #fff;
+  border-radius: 14px;
+  padding: 13px 16px;
+  box-shadow: 0 1px 2px rgba(26, 36, 28, 0.04), 0 8px 20px rgba(11, 83, 40, 0.06);
+}
+
+.timeline-item .card p { margin: 0; }
+
+@media (max-width: 740px) {
+  .timeline-item {
+    grid-template-columns: 20px 4.4rem minmax(0, 1fr);
+    column-gap: 10px;
+  }
+
+  .timeline-item .card { padding: 12px 13px; }
 }
 
 @media print {

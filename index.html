@@ -83,7 +83,7 @@ description: "Junyeong Park is a Ph.D. student at KAIST studying culturally and 
           </p>
           <ul class="tags">
             {% for tag in site.data.themes %}
-              {% if pub.tags contains tag.id and tag.id != pub.primary %}
+              {% if pub.tags contains tag.id %}
               <li>{{ tag.title }}</li>
               {% endif %}
             {% endfor %}

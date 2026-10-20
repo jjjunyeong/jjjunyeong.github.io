@@ -8,12 +8,13 @@ description: "News from Junyeong Park."
 
 <section class="news-page">
   <h1>News</h1>
-  <div class="news">
+  <ol class="timeline">
     {% for item in site.data.news %}
-    <article class="news-item">
+    <li class="timeline-item{% if forloop.first %} is-latest{% endif %}">
+      <span class="rail" aria-hidden="true"><span class="node"></span></span>
       <time datetime="{{ item.date | replace: '.', '-' }}">{{ item.date }}</time>
-      <div class="text">{{ item.text | markdownify }}</div>
-    </article>
+      <div class="card">{{ item.text | markdownify }}</div>
+    </li>
     {% endfor %}
-  </div>
+  </ol>
 </section>
