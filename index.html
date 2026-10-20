@@ -62,7 +62,7 @@ description: "Junyeong Park is a Ph.D. student at KAIST studying culturally and 
           <h4>
             {% assign lead = nil %}
             {% for link in pub.links %}
-              {% if link.label != "arXiv" %}
+              {% if link.label == "Paper" %}
                 {% unless lead %}{% assign lead = link %}{% endunless %}
               {% endif %}
             {% endfor %}
