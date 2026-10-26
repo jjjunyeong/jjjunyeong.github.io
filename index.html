@@ -76,9 +76,9 @@ description: "Junyeong Park is a Ph.D. student at KAIST studying culturally and 
           <p class="authors">{% include authors.html text=pub.authors %}</p>
           <p class="meta">
             <span>{{ pub.venue }}</span>
-            {% if pub.award %}<span class="award">{{ pub.award }}</span>{% endif %}
+            {% if pub.award %}<span class="award"><span class="mark" aria-hidden="true">🏆</span>{{ pub.award }}</span>{% endif %}
             {% for link in pub.links %}
-            <a href="{{ link.url }}">{{ link.label }}</a>
+            <a href="{{ link.url }}">{% if link.label == "Paper" %}<span class="mark" aria-hidden="true">📄</span>{% elsif link.label == "Dataset" %}<span class="mark" aria-hidden="true">🗂️</span>{% endif %}{{ link.label }}</a>
             {% endfor %}
           </p>
           <ul class="tags">
