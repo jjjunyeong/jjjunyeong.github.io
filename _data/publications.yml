@@ -146,13 +146,25 @@
     - label: Paper
       url: https://openreview.net/forum?id=cT0Oqt2css
 
+- title: "When Language Learners Code-Switch: Korean-English Code-Switching in LLM-based Speaking Practice"
+  authors: "Junyeong Park, Jieun Han, Yeon Su Park, Youngbin Lee, Suin Kim, Juho Kim, Alice Oh, So-Yeon Ahn"
+  venue: "Preprint, 2026"
+  primary: education
+  tags: [education]
+  cv: preprint
+  order: 2
+  cv_order: 16
+  links:
+    - label: Paper
+      url: https://arxiv.org/abs/2512.23136
+
 - title: "EduZone: A Framework for Evaluating LLM Safety for K-12 Students and Teachers"
   authors: "Junyeong Park*, Jieun Han*, Haneul Yoo, So-Yeon Ahn, Jinsung Yoon, Alice Oh"
   venue: "Preprint, 2026"
   primary: education
   tags: [education, evaluation, safety]
   cv: preprint
-  order: 2
+  order: 3
   cv_order: 12
   links:
     - label: Paper
@@ -164,7 +176,7 @@
   primary: education
   tags: [education]
   cv: preprint
-  order: 3
+  order: 4
   cv_order: 14
 
 - title: "Beyond Standard English: AI-Driven Language Learning for Inclusivity in South Korea"
@@ -173,20 +185,8 @@
   primary: education
   tags: [education]
   cv: preprint
-  order: 4
-  cv_order: 13
-
-- title: "Understanding EFL Learners' Code-Switching and Teachers' Pedagogical Approaches in LLM-Supported Speaking Practice"
-  authors: "Junyeong Park, Jieun Han, Yeon Su Park, Youngbin Lee, Suin Kim, Juho Kim, Alice Oh, So-Yeon Ahn"
-  venue: "Preprint, 2025"
-  primary: education
-  tags: [education]
-  cv: preprint
   order: 5
-  cv_order: 16
-  links:
-    - label: Paper
-      url: https://arxiv.org/abs/2512.23136
+  cv_order: 13
 
 - title: "One-Topic-Doesn't-Fit-All: Transcreating Reading Comprehension Test for Personalized Learning"
   authors: "Jieun Han, Daniel Lee, Haneul Yoo, Jinsung Yoon, Junyeong Park, Suin Kim, So-Yeon Ahn, Alice Oh"
